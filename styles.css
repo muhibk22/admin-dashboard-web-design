@@ -1,0 +1,17 @@
+.sidebar img{
+    width: 30px;
+}
+
+.sidebar ul{
+    list-style-type: none;
+}
+
+li{
+    display: flex;
+    align-items: center;
+}
+
+.card img{
+    width: 2rem;
+}
+
