@@ -5,24 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Cabin+Sketch:wght@400;700&family=Londrina+Sketch&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pirata+One&family=Quicksand:wght@300..700&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+        </style>
 </head>
 <body>
     <div class="container">
         <div class="nav">
             <div class="search">
-                <img src="resources/magnify.svg" width="18px">
+                <img src="resources/magnify.svg" class="icon">
                 <input type="text" id="search-box">
             </div>
             <div class="profile">
-                <img src="resources/bell.svg" width="18px"> 
+                <img src="resources/bell.svg" width="18px" class="icon"> 
                 <div class="dp"></div>
                 <p>Joseph Joestar</p>
+            </div>
+            <div class="welcome">
+                <div class="dp large"></div>
+                <div class="welcome-text"><p>Welcome Back,</p> <h1>Joseph Joestar</h1></div>
+            </div>
+            <div class="buttons">
+                <button type="button">New</button>
+                <button type="button">Upload</button>
+                <button type="button">Share</button>
             </div>
         </div>
         <div class="sidebar">
             <div class="logo">
-                <img src="resources/view-dashboard.svg" width="60px">
-                <h1>Dashboard</h1>
+                <img src="resources/view-dashboard.svg" >
+                <p>Dashboard</p>
             </div>
             <div class="menu1">
                 <ul>
@@ -41,84 +53,117 @@
                 </ul>
             </div>
         </div>
-        <div class="card">
-            <h2>Muda Muda Muda!</h2>
-            <p>Muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda!</p>
-            <div class="card-icons">
-                <img src="resources/star-plus-outline.svg" alt="Star">
-                <img src="resources/share-outline.svg" alt="Share">
+        <div class="content">
+            <div class="cards">
+                <span class="line"><h2>Your Blogs</h2></span>
+                <div class="card">
+                    <h2>Muda Muda Muda!</h2>
+                    <p>Muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda! muda muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h2>Ora Ora Ora!</h2>
+                    <p>Ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h2>Muda Muda & Ora Ora</h2>
+                    <p>Muda muda muda muda ora ora ora ora muda muda ora ora ora muda muda muda ora ora muda ora ora ora ora muda muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h2>Ultimate Muda Muda</h2>
+                    <p>Muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h2>Unstoppable Ora Ora</h2>
+                    <p>Ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                
+                <div class="card">
+                    <h2>Clash of Muda & Ora</h2>
+                    <p>Muda muda ora ora ora muda ora muda ora ora ora ora muda muda ora ora muda muda muda ora ora muda muda ora ora ora ora ora muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Muda Muda & Ora Ora</h2>
+                    <p>Muda muda muda muda ora ora ora ora muda muda ora ora ora muda muda muda ora ora muda ora ora ora ora muda muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Muda Muda & Ora Ora</h2>
+                    <p>Muda muda muda muda ora ora ora ora muda muda ora ora ora muda muda muda ora ora muda ora ora ora ora muda muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Muda Muda & Ora Ora</h2>
+                    <p>Muda muda muda muda ora ora ora ora muda muda ora ora ora muda muda muda ora ora muda ora ora ora ora muda muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
+                <div class="card">
+                    <h2>Muda Muda & Ora Ora</h2>
+                    <p>Muda muda muda muda ora ora ora ora muda muda ora ora ora muda muda muda ora ora muda ora ora ora ora muda muda muda!</p>
+                    <div class="card-icons">
+                        <img src="resources/star-plus-outline.svg" alt="Star">
+                        <img src="resources/share-outline.svg" alt="Share">
+                    </div>
+                </div>
             </div>
-        </div>
-        
-        <div class="card">
-            <h2>Ora Ora Ora!</h2>
-            <p>Ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora!</p>
-            <div class="card-icons">
-                <img src="resources/star-plus-outline.svg" alt="Star">
-                <img src="resources/share-outline.svg" alt="Share">
-            </div>
-        </div>
-        
-        <div class="card">
-            <h2>Muda Muda & Ora Ora</h2>
-            <p>Muda muda muda muda ora ora ora ora muda muda ora ora ora muda muda muda ora ora muda ora ora ora ora muda muda muda!</p>
-            <div class="card-icons">
-                <img src="resources/star-plus-outline.svg" alt="Star">
-                <img src="resources/share-outline.svg" alt="Share">
-            </div>
-        </div>
-        
-        <div class="card">
-            <h2>Ultimate Muda Muda</h2>
-            <p>Muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda!</p>
-            <div class="card-icons">
-                <img src="resources/star-plus-outline.svg" alt="Star">
-                <img src="resources/share-outline.svg" alt="Share">
-            </div>
-        </div>
-        
-        <div class="card">
-            <h2>Unstoppable Ora Ora</h2>
-            <p>Ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora!</p>
-            <div class="card-icons">
-                <img src="resources/star-plus-outline.svg" alt="Star">
-                <img src="resources/share-outline.svg" alt="Share">
-            </div>
-        </div>
-        
-        <div class="card">
-            <h2>Clash of Muda & Ora</h2>
-            <p>Muda muda ora ora ora muda ora muda ora ora ora ora muda muda ora ora muda muda muda ora ora muda muda ora ora ora ora ora muda muda!</p>
-            <div class="card-icons">
-                <img src="resources/star-plus-outline.svg" alt="Star">
-                <img src="resources/share-outline.svg" alt="Share">
-            </div>
-        </div>
-        
-        <div class="announcements">
-            <div class="announcement">
-                <h2>Muda Muda!</h2>
-                <p>Muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda muda!</p>
-            </div>
-        
-            <div class="announcement">
-                <h2>Ora Ora!</h2>
-                <p>Ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora!</p>
-            </div>
-        
-            <div class="announcement">
-                <h2>Za Warudoooooooo!</h2>
-                <p>Za warudoooooooooooooooooooooooooooooooo!</p>
-            </div>
-        
-            <div class="announcement">
-                <h2>Wryyyyyyyyyyy!</h2>
-                <p>Wryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy!</p>
-            </div>
-        
-            <div class="announcement">
-                <h2>Yare Yare Daze</h2>
-                <p>Yare yare daze!</p>
+            
+            <div class="announcements">
+                <h2>Announcements</h2>
+                <div class="announcement-card">
+                    <div class="announcement">
+                        <h3>Ora Ora!</h3>
+                        <p>Ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora ora!</p>
+                    </div>
+                    <div class="announcement">
+                        <h3>Za Warudoooooooo!</h3>
+                        <p>Za warudoooooooooooooooooooooooooooooooo!</p>
+                    </div>
+                    <div class="announcement">
+                        <h3>Wryyyyyyyyyyy!</h3>
+                        <p>Wryyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy!</p>
+                    </div>
+                    <div class="announcement">
+                        <h3>Yare Yare Daze</h3>
+                        <p>Yare yare daze!</p>
+                    </div>
+                </div>
             </div>
         </div>
         
