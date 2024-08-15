@@ -46,8 +46,14 @@ li {
     cursor: pointer;
     transition: font-size 0.15s;
 }
-.sidebar{
-    font-weight: bold;
+.menu1, .menu2{
+    position: sticky;
+    top: 10px;
+    left: 0;
+}
+
+.menu2{
+    top:560px;
 }
 li:hover,
 li:focus {
@@ -73,6 +79,8 @@ li:focus {
     background-color: rgb(20, 153, 230);
     min-height: 100vh;
     font-size: 1.2rem;
+    font-weight: bold;
+    position: relative;
 
 }
 
@@ -262,6 +270,12 @@ button{
     .cards{
         grid-column: 1/3;
     }
+    .logo .hide{
+        opacity: 0;
+    }
+    .logo img{
+        width: 7rem;
+    }
 }
 
 @media (max-width:480px){
@@ -270,6 +284,18 @@ button{
     }
     .card{
         grid-column: 1;
+    }
+    .sidebar .hide {
+        opacity: 0;
+    }
+
+    .sidebar ul li img {
+        width: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .logo img {
+        width: 5rem !important; 
     }
     
     
